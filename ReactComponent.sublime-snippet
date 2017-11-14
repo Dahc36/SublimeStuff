@@ -1,0 +1,23 @@
+<snippet>
+		<content><![CDATA[
+let React = require('react');
+
+let ${1:Name} = React.createClass({
+	render: function(){
+		return (
+			<div>
+				${2}
+			</div>
+		);
+	}
+});
+
+module.exports = ${1:Name};
+]]></content>
+		<!-- Optional: Tab trigger to activate the snippet -->
+		<tabTrigger>reactComp</tabTrigger>
+		<!-- Optional: Scope the tab trigger will be active in -->
+		<scope>source.js</scope>
+		<!-- Optional: Description to show in the menu -->
+		<description>React Component</description>
+</snippet>
