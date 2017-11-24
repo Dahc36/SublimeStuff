@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+export let ${2:start}${1:State} = () => {
+	return (dispatch, getState) => {
+		${3}
+	};
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reduxAsyncAction</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>Redux Async Action</description>
+</snippet>
