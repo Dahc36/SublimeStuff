@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-export let ${2:start}${1:State} = () => {
+export let ${2:start}${1:State} = (${3}) => {
 	return (dispatch, getState) => {
-		${3}
+		${4}
 	};
 };
 ]]></content>
