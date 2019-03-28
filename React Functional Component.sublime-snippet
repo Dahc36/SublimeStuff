@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+
+const ${1:Name} = () => {
+	return (
+		<div>${2:Content}</div>
+	);
+};
+
+export default ${1:Name};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ReactCompFunc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

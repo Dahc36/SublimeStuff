@@ -1,11 +1,18 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"draw_white_space": "all",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"show_encoding": true,
-	"tab_size": 2,
-	"theme": "Default.sublime-theme"
+  "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+  "draw_white_space": "all",
+  "folder_exclude_patterns":
+  [
+    "node_modules"
+  ],
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "shift_tab_unindent": true,
+  "show_encoding": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true
 }
